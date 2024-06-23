@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Craft Simulator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Infinite Craft Simulator</h1>
+        <div class="form-group">
+            <label for="prompt">Enter your quest prompt:</label>
+            <input type="text" id="prompt" name="prompt" placeholder="E.g., 'Baby Jesus - Super Jesus'">
+            <button onclick="generateWord()">Generate Word</button>
+        </div>
+        <div id="wordResult"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
