@@ -16,14 +16,38 @@ Welcome to the Infinite-Craft-Simulator! This script allows you to merge sets of
     cd Infinite-Craft-Simulator
     ```
 
-3. [Install Ollama](https://ollama.com/)
+3. [Install Ollama](https://ollama.com/) and pull the appropiate model used in app.py
 
 4. Install the required dependencies using pip:
     ```bash
     pip install -r requirements.txt
     ```
 
-### Windows (using WSL)
+### Windows
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/ifBars/Infinite-Craft-Simulator
+    ```
+    
+2. Navigate to the project directory:
+    ```bash
+    cd Infinite-Craft-Simulator
+    ```
+    
+3. [Install Ollama](https://ollama.com/)
+
+4. Pull the appropiate model used in app.py, ex: llama3
+    ```bash
+    ollama pull llama3
+    ```
+
+5. Install the required dependencies using pip:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Windows using WSL (Outdated)
 
 1. Ensure you have Windows Subsystem for Linux (WSL) installed. You can follow the official documentation for installation: [WSL Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install)
 
@@ -38,14 +62,12 @@ Welcome to the Infinite-Craft-Simulator! This script allows you to merge sets of
     cd Infinite-Craft-Simulator
     ```
 
-4. [Install Ollama](https://ollama.com/)
+4. [Install Ollama](https://ollama.com/) and pull the appropiate model used in app.py, [NetworkChuck has a good video on this for WSL](https://www.youtube.com/watch?v=WxYC9-hBM_g)
 
 5. Install the required dependencies using pip:
     ```bash
     pip install -r requirements.txt
     ```
-
-I did not test this with the windows preview version of ollama, as I already had the it installed on my WSL.
 
 ## Usage
 
